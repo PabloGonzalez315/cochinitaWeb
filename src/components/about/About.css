@@ -1,0 +1,21 @@
+.aboutSubtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.aboutText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+}
+.aboutText li {
+  padding-bottom: 30px;
+  list-style-type: square;
+}

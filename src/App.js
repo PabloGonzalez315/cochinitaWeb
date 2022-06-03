@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Separator from "./components/separator/Separator";
+import Footer from "./components/footer/Footer";
+import SeparatorEmpty from "./components/separator/SeparatorEmpty";
+import About from "./components/about/About";
+import Ubication from "./components/ubication/Ubication";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Separator text="Sobre nosotros" icon="file.png" />
+      <About />
+      <Separator text="Ubicación" icon="ubication.png" />
+      <Ubication />
+      <Separator text="Contacto" icon="menu.png" />
+      <SeparatorEmpty />
+      <Footer />
+    </>
   );
 }
 
