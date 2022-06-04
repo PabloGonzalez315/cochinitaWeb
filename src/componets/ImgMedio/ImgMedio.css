@@ -1,0 +1,35 @@
+.imgMed {
+    background-image: url("https://i.ibb.co/dB7bNgL/MX13229838192351.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+
+}
+
+.rectangleGreen {
+padding: 30px 0 50px ;
+width: 45%;
+height: 100%;
+margin: 15px auto;
+background: rgba(100, 129, 74, 0.85);
+border-radius: 15px;
+
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 30px;
+    line-height: 100%;
+    /* or 45px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
