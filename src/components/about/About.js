@@ -8,8 +8,8 @@ const About = () => {
       <Container
         maxWidth="xl"
         sx={{
-          width: "1920px",
-          height: "1200px",
+          width: "100%",
+          height: "100%",
           backgroundColor: "rgba(209, 39, 39, 0.9)",
         }}
       >

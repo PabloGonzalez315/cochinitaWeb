@@ -16,7 +16,6 @@ const Separator = (props) => {
           height: "180px",
           justifyContent: "center",
           flexDirection: "row",
-          width: "1920px",
         }}
       >
         <Box

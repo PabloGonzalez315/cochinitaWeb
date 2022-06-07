@@ -1,5 +1,6 @@
-import { Box, Container, List, ListItem, ListItemText } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
       <Container
         maxWidth="xl"
         sx={{
-          width: "1920px",
-          height: "400px",
+          width: "100%",
+          height:"100%",
           backgroundColor: "black",
           borderRadius: "50px 50px 0 0",
         }}
@@ -16,50 +17,40 @@ const Footer = () => {
         <Box
           sx={{
             width: "100%",
-            height: "310px",
             display: "flex",
             flexDirection: "row",
             justifyContent: "flex-end",
           }}
         >
-          <List
-            sx={{
-              width: "440px",
-              fontFamily: "Inter",
-              fontWeight: "400",
-              fontSize: "19px",
-              fontStyle: "normal",
-              color: "white",
-            }}
-          >
-            <ListItem disablePadding sx={{ padding: "0 0 10px 0" }}>
-              <ListItemText primary="Contacto: +555555555" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Horarios y días disponibles:" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Lunes" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Martes" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Miércoles" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Jueves" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Viernes" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Sábado" />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemText primary="Domingo" />
-            </ListItem>
-          </List>
+          <ul className="list">
+            <li>
+              <p>Contacto: +555555555</p>
+            </li>
+            <li>
+              <p>Horarios y días disponibles:</p>
+            </li>
+            <li>
+              <p>Lunes</p>
+            </li>
+            <li>
+              <p>Martes</p>
+            </li>
+            <li>
+              <p>Miércoles</p>
+            </li>
+            <li>
+              <p>Jueves</p>
+            </li>
+            <li>
+              <p>Viernes</p>
+            </li>
+            <li>
+              <p>Sábado</p>
+            </li>
+            <li>
+              <p>Domingo</p>
+            </li>
+          </ul>
         </Box>
         <hr />
         <Box
@@ -67,10 +58,12 @@ const Footer = () => {
             fontFamily: "Inter",
             fontStyle: "normal",
             fontWeight: 300,
-            fontSize: "25px",
-            lineHeight: "30px",
+            fontSize: "2rem",
+            lineHeight: "1",
             textAlign: "center",
             color: "white",
+            height: "100%",
+            paddingBottom: "1%"
           }}
         >
           <p>Copyright © - Cochinitas resto - 2022</p>

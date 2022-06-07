@@ -10,7 +10,7 @@ const Ubication = () => {
         sx={{
           backgroundImage: `url(${map})`,
           backgroundSize: "100%",
-          width: "1920px",
+          width: "100%",
           height: "900px",
           display: "flex",
           alignItems: "start",
