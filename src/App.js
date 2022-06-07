@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
-import ButtoNav from './componets/ButtonNav/ButtoNav';
-import BannerImg from './componets/Banner/BannerImg';
-import ImgMedio from './componets/ImgMedio/ImgMedio';
+import ButtoNav from './componemts/ButtonNav/ButtoNav';
+import BannerImg from './components/Banner/BannerImg';
+import ImgMedio from './componemts/ImgMedio/ImgMedio';
 
 
 function App() {
