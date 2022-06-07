@@ -1,0 +1,66 @@
+.fondoImg {
+  background-image: url('https://i.ibb.co/G3VBWJV/image029.jpg');
+    background-size: cover;
+     background-position: center;
+  background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+ 
+}
+
+.backgr {
+    background: rgba(0, 0, 0, 0.81);
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    border-radius: 5px;
+}
+
+.backgr h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 65px;
+line-height: 79px;
+text-align: center;
+color: #4097DA;
+   
+}
+
+.backgr p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+
+color: #64814A;
+}
+
+.rectangle {
+width: 763px;
+height: 153px;
+margin: 0 auto;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+align-items: center;
+}
+
+.header .rectangle p {
+font-style: normal;
+font-size: 50px;
+text-align: center;
+margin: 0 auto;
+padding-top: 35px;
+
+}
+
+.imgMenu {
+    width: 60px;
+    height: 6
+    0px;
+    border-radius: 5px;
+}
+

@@ -1,20 +1,19 @@
-import Separator from "./components/separator/Separator";
-import Footer from "./components/footer/Footer";
-import SeparatorEmpty from "./components/separator/SeparatorEmpty";
-import About from "./components/about/About";
-import Ubication from "./components/ubication/Ubication";
+import './App.css';
+import React from 'react';
+import ButtoNav from './componets/ButtonNav/ButtoNav';
+import BannerImg from './componets/Banner/BannerImg';
+import ImgMedio from './componets/ImgMedio/ImgMedio';
+
 
 function App() {
-  return (
-    <>
-      <Separator text="Sobre nosotros" icon="file.png" />
-      <About />
-      <Separator text="Ubicación" icon="ubication.png" />
-      <Ubication />
-      <Separator text="Contacto" icon="menu.png" />
-      <SeparatorEmpty />
-      <Footer />
-    </>
+    return (
+    <div className="App">
+        <ButtoNav/>
+        <BannerImg />
+        <ImgMedio />
+
+
+    </div>
   );
 }
 
