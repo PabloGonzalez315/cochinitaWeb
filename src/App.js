@@ -1,8 +1,5 @@
 import "./App.css";
 import React from "react";
-//import ButtoNav from './componemts/ButtonNav/ButtoNav';
-//import BannerImg from './components/Banner/BannerImg';
-//import ImgMedio from './componemts/ImgMedio/ImgMedio';
 import ButtoNav from "./components/ButtonNav/ButtoNav";
 import ImgMedio from "./components/ImgMedio/ImgMedio.jsx";
 import BannerImg from "./components/Banner/BannerImg.jsx";

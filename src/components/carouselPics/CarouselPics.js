@@ -1,7 +1,7 @@
 import React from "react";
-import Carousel from "better-react-carousel";
 import "./carousel.css";
 import { Container } from "@mui/material";
+import Carousel from "better-react-carousel";
 
 const CarouselPics = () => {
   return (

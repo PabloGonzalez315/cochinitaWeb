@@ -36,8 +36,8 @@ let contacto = "contacto";
 const ButtoNav = () => {
   const classes = useStyles();
   return (
-    <div className="header">
-    <Container maxWidth="lg" className="header">
+    <Container maxWidth="xl" className="header">
+   
       
     <section className="navbar">
     <Grid container spacing={2}>
@@ -59,7 +59,7 @@ const ButtoNav = () => {
     </section>
   
     </Container>
-    </div>
+    
   );
 };
 

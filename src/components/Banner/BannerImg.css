@@ -3,14 +3,14 @@
     background-size: cover;
      background-position: center;
   background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
  
 }
 
 .backgr {
     background: rgba(0, 0, 0, 0.81);
-    height: 70%;
+    height: 77%;
     width: 50%;
     position: absolute;
     right: 0%;
@@ -40,7 +40,7 @@ color: #64814A;
 }
 
 .rectangle {
-width: 763px;
+width: 770px;
 height: 153px;
 margin: 0 auto;
 background: rgba(255, 255, 255, 0.8);
