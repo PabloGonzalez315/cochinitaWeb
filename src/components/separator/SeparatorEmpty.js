@@ -15,7 +15,7 @@ const SeparatorEmpty = () => {
           height: "180px",
           justifyContent: "center",
           flexDirection: "row",
-          width: "1920px",
+          width: "100%",
         }}
       >
         
